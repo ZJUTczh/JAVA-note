@@ -18,3 +18,9 @@ class student extends person{}子类A继承父类后获取父类所有属性和�
 子类中的方法会覆盖与父类同名的方法（参数列表相同）。
 
 所有类（除jaca.lang.Object类）都直接或间接地继承了Object类。
+## 多态
+class person{}
+
+class man extends person{}
+
+person p = new man();
