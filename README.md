@@ -19,8 +19,10 @@ class student extends person{}子类A继承父类后获取父类所有属性和�
 
 所有类（除jaca.lang.Object类）都直接或间接地继承了Object类。
 ## 多态
-class person{}
+class person{}，person包含方法a。
 
-class man extends person{}
+class man extends person{}，man重写了方法a
 
 person p = new man();
+
+p.a()调用的是man中重写的a方法。
